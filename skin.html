@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>العناية بالبشرة | GUZELLIK OM</title>
+
+<link rel="stylesheet" href="GUZELLIK.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="top-icon">
+
+<a href="https://www.instagram.com/guzellik__om" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+</a>
+
+<a href="cart.html" class="cart-icon">
+<i class="fa-solid fa-bag-shopping"></i>
+<span id="cart-count">0</span>
+</a>
+
+</div>
+
+ <a href="index.html">الرئيسية</a>
+        <a href="products.html">المنتجات</a>
+        <a href="hair.html">العناية بالشعر</a>
+        <img src="logo.png" class="logo" alt="GUZELLIK OM Logo">
+        <a href="skin.html">العناية بالبشرة</a>
+        <a href="makeup.html">المكياج</a>
+        <a href="contact.html">تواصل معنا</a>
+
+</nav>
+
+</header>
+
+<section class="page-title">
+
+<h1>منتجات العناية بالبشرة</h1>
+
+<p>كل ما تحتاجه بشرتك من ترطيب وإشراقة وعناية.</p>
+
+</section>
+
+<section class="products">
+
+<!-- ماسك القهوة -->
+
+<div class="product-card">
+
+<img src="maskcoffee.png" alt="ماسك القهوة">
+
+<h3>
+
+ماسك القهوة
+
+<br>
+
+Coffee Face Mask
+
+</h3>
+
+<p>
+
+يساعد على تنظيف البشرة وتنعيمها ومنحها مظهراً أكثر إشراقاً.
+
+</p>
+
+<span class="price">
+
+2.500 ر.ع
+
+</span>
+
+<button class="btn"
+
+onclick="addToCart('ماسك القهوة',2.500,'coffeemask.png')">
+
+🛒 أضيفي إلى السلة
+
+</button>
+
+</div>
+
+<!-- ماسك الكولاجين -->
+
+<div class="product-card">
+
+<img src="maskcollagen.png" alt="ماسك الكولاجين">
+
+<h3>
+
+ماسك الكولاجين للوجه
+
+<br>
+
+Claderm Collagen Face Mask
+
+</h3>
+
+<p>
+
+يرطب البشرة بعمق ويمنحها النعومة والإشراقة والنضارة.
+
+</p>
+
+<span class="price">
+
+3.000 ر.ع
+
+</span>
+
+<button class="btn"
+
+onclick="addToCart('ماسك الكولاجين',3.000,'collagen.png')">
+
+🛒 أضيفي إلى السلة
+
+</button>
+
+</div>
+<!-- زبدة اليدين -->
+<div class="product-card">
+<img src="handorange.png" alt="زبدة اليدين">
+<h3>زبدة اليدين و الأظافر بزيت البرتقال<br>Hand & Cuticle Butter Orange Oil</h3>
+<p>يرطب اليدين ويغذي الأظافر و الجلد.</p>
+<span class="price">3.000 ر.ع</span>
+<button class="btn"
+onclick="addToCart('Hand & Cuticle Butter Orange Oil',3.000,'handorange.png')">
+🛒 أضيفي إلى السلة
+</button>
+</div>
+
+</section>
+
+<footer>
+    <p>
+        © 2026 GUZELLIK OM | جميع الحقوق محفوظة.
+    </p>
+</footer>
+<script src="script.js"></script>
+<div id="toast">
+<i class="fa-solid fa-circle-check"></i>
+تمت إضافة المنتج إلى السلة
+</div>
+
+</body>
+
+</html>
